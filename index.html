@@ -1,49 +1,47 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>My jQuery Mobile Application</title>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
-<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js">
+<html> 
+	<head>
+  <meta charset="UTF-8">	
+	<title>Chineses Restaurant</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js">
 
-</script>
-</head>
-<body>
-	<!-- Page: home  -->
-	  <div id="home" data-role="page">
-			<div data-role="header" data-position="fixed">
-			  <h1>Food Collection</h1>
-			  <br>
-			  <br>
-			  <img style="width:100%;" src="http://jqmdesigner.appspot.com/images/image.png" is="image">
-			</div>
-		
 
-		
-		
-					  <ul data-role="listview" data-inset="true">
-					  <li data-role="list-divider">Menu</li>
-					  <li>
-						<a href="food_type_page.html">
-						  <img src="image/Meat.jpg" class="ui-li-icon">Food</a>
-					  </li>
-					  <li>
-						<a href="phone.html">
-						  <img src="image/phone.jpg" class="ui-li-icon">phone call</a>
-					  </li>
-					  <li>
-						<a href="Developer.html">
-						  <img src="image/Developer.jpg" class="ui-li-icon">Developer</a>
-					  </li>
-					</ul>
-					
-					
-					
-					
-					
-		</div>
-		<div data-role="footer" data-position="fixed">
-		<h3>Footer</h3>
-		</div>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="images/China.jpg" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/China.jpg" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/China.jpg" />
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="custom.css" />
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+
+<body> 
+<div data-role="page" id="home" data-theme="c">
+
+	<div data-role="content">
+	
+	<div id="branding">
+		<h1>Chineses Restaurant </h1>
+	</div>
+	
+	<div class="choice_list"> 
+	<h1> welcome! </h1>
+	
+		<ul data-role="listview" data-inset="true" >
+		<li><a href="food_type_page.html"  data-transition="flip"> <img src="image/eat.jpg"/> <h3> Menu</h3></a></li>
+		<li><a href="Phone.html"  data-transition="flip"> <img src="image/phone.jpg"/> <h3> Call Us </h3></a></li>
+		<li><a href="map.html"  data-transition="flip"> <img src="image/map.jpg"/> <h3> Location</h3></a></li>
+		<li><a href="Developer.html"  data-transition="flip"> <img src="image/person.jpg"/> <h3> Developer</h3></a></li>		
+		</ul>	
+	
+	</div>
+	</div>
+
+</div><!-- /page -->
 </body>
 </html>
