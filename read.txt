@@ -1,4 +1,0 @@
-http://demos.jquerymobile.com/1.0a2/docs/pages/link-formats.html
-
-
-http://zhilig.github.io/Github-Ass1.
